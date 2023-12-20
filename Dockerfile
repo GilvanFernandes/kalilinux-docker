@@ -39,6 +39,5 @@ RUN rm findomain-linux-i386.zip
 
 # Definir um ponto de entrada padrão (pode ser substituído ao executar o contêiner)
 CMD ["/bin/bash"]
-git sta
 # docker build -t kali-custom .
 # docker run -it kali-custom
